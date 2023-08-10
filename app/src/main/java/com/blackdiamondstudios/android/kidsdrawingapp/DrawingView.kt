@@ -130,8 +130,6 @@ private var mUndoPaths = ArrayList<CustomPath>()
         color= Color.parseColor(newColor)
         mDrawPaint!!.color = color
     }
-
     internal inner class CustomPath(var color: Int , var brushThickness : Float ) : Path() {
-
     }
 }
